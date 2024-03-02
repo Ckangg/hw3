@@ -8,16 +8,16 @@ def question1():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "In the single linkage method, the outlier point will have limitation influence. But in k-means clustering, the outlier point will influence the centroids"
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "because the first centroids are selected randomly for k-means, but the agglometrative hierarchical clustering will do a deterministic process, so it will get the same results "
 
     # type: bool (True/False)
     answers["(c)"] = -1

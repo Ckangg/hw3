@@ -32,34 +32,34 @@ def question1():
     answers["(d) explain"] = "the centroid will be the average value of all the points in a cluster, the sse maybe decrease, because the points will be assigned more suitable, but there maybe some special case. "
 
     # type: bool (True/False)
-    answers["(e)"] = -1
+    answers["(e)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "sse is the total variance of in the cluster, so if sse is smaller, the points in the cluster will be more concentrated "
 
     # type: bool (True/False)
-    answers["(f)"] = -1
+    answers["(f)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(f) explain"] = ""
+    answers["(f) explain"] = "the bss means the separation between different clusters, the bss increase means that the different clusters are more far away form each other"
 
     # type: bool (True/False)
-    answers["(g)"] = -1
+    answers["(g)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(g) explain"] = ""
+    answers["(g) explain"] = "the sse is for the data points in a cluster, the ssb is for the centroids and the total average value of the whole data"
 
     # type: bool (True/False)
-    answers["(h)"] = -1
+    answers["(h)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(h) explain"] = ""
+    answers["(h) explain"] = "because the centroids are selected randomly, so at first the sse+bss may be larger, but with the step goes on, the sse+bss will finally be constant "
 
     # type: bool (True/False)
-    answers["(i)"] = -1
+    answers["(i)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(i) explain"] = ""
+    answers["(i) explain"] = "the cohesion increases means the data points in a cluster become more closer and more concentrated, but the centroids will not be faraway from each other "
 
     return answers
 

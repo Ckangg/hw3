@@ -20,16 +20,16 @@ def question1():
     answers["(b) explain"] = "because the first centroids are selected randomly for k-means, but the agglometrative hierarchical clustering will do a deterministic process, so it will get the same results "
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "with the number of data points increasing, the proximity matrix will be complicated and it will spend more time to calculate it, so agglomerative hierarchical clustering will be slower "
 
     # type: bool (True/False)
-    answers["(d)"] = -1
+    answers["(d)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(d) explain"] = ""
+    answers["(d) explain"] = "the centroid will be the average value of all the points in a cluster, the sse maybe decrease, because the points will be assigned more suitable, but there maybe some special case. "
 
     # type: bool (True/False)
     answers["(e)"] = -1

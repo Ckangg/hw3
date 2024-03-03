@@ -71,19 +71,19 @@ def question2():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "at first the two centroid will collect the points in the two circles as clusters, because they are faraway form each other, it can think that they are the two separate system to get the results. So the centroid will be the midle point of each circle"
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "it is hard for k-means method to cluster this shape points, so as a result it maybe two centroids, one of them will in the upper part of the whole plot, another will in the lower part and each cluster will contain two shaded regions"
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = True
 
     # type: explanatory string (at least four words)
     answers["(c) explain"] = ""
@@ -98,13 +98,13 @@ def question3():
     answers = {}
 
     # type: a string that evaluates to a float
-    answers["(a) SSE"] = 7.5
+    answers["(a) SSE"] = 4*R**2
 
     # type: a string that evaluates to a float
-    answers["(b) SSE"] = 7.5
+    answers["(b) SSE"] = 4*a**2+4*b**2+4*R**2
 
     # type: a string that evaluates to a float
-    answers["(c) SSE"] = 7.5
+    answers["(c) SSE"] = 5*R**2
 
     return answers
 
@@ -119,10 +119,10 @@ def question4():
     answers["(a) Circle (a)"] = 0
 
     # type: int
-    answers["(a) Circle (b)"] = 0
+    answers["(a) Circle (b)"] = 1
 
     # type: int
-    answers["(a) Circle (c)"] = 0
+    answers["(a) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = ""

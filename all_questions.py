@@ -125,7 +125,7 @@ def question4():
     answers["(a) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "because A and B only have 100points, smaller than C, in order to find the min sse, the centroid will going to C, but the centroids are in the B firstly, so B will get a centroid"
 
     # type: int
     answers["(b) Circle (a)"] = 0

@@ -161,13 +161,13 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set(AB)
+    answers["(a)"] = set({'AB'})
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "single linkage is to find the minimum of two points in different group. So I choose A and B"
 
     # type: set
-    answers["(b)"] = set(AC)
+    answers["(b)"] = set({'AC'})
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = "this method is to find the maximum distance of two points in different group, so I choose A and C"
@@ -182,46 +182,46 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set()
+    answers["(a) core"] = set({'BCEFIJLM'})
 
     # type: set
-    answers["(a) boundary"] = set()
+    answers["(a) boundary"] = set({'DG'})
 
     # type: set
-    answers["(a) noise"] = set()
+    answers["(a) noise"] = set({'AH'})
 
     # type: set
-    answers["(b) cluster 1"] = set()
+    answers["(b) cluster 1"] = set({'BCDEFG'})
 
     # type: set
-    answers["(b) cluster 2"] = set()
+    answers["(b) cluster 2"] = set({'JLIM'})
 
     # type: set
-    answers["(b) cluster 3"] = set()
+    answers["(b) cluster 3"] = set({'None'})
 
     # type: set
-    answers["(b) cluster 4"] = set()
+    answers["(b) cluster 4"] = set({'None'})
 
     # type: set
-    answers["(c)-a core"] = set()
+    answers["(c)-a core"] = set({'BCDEFGIJLM'})
 
     # type: set
-    answers["(c)-a boundary"] = set()
+    answers["(c)-a boundary"] = set({'AH'})
 
     # type: set
-    answers["(c)-a noise"] = set()
+    answers["(c)-a noise"] = set({'None'})
 
     # type: set
-    answers["(c)-b cluster 1"] = set()
+    answers["(c)-b cluster 1"] = set({'ABCDEFG'})
 
     # type: set
-    answers["(c)-b cluster 2"] = set()
+    answers["(c)-b cluster 2"] = set({'HIJLM'})
 
     # type: set
-    answers["(c)-b cluster 3"] = set()
+    answers["(c)-b cluster 3"] = set({'None'})
 
     # type: set
-    answers["(c)-b cluster 4"] = set()
+    answers["(c)-b cluster 4"] = set({'None'})
 
     return answers
 
@@ -233,16 +233,16 @@ def question7():
     answers = {}
 
     # type: string
-    answers["(a)"] = ""
+    answers["(a)"] = "cluster4"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "the cluster4 has the most average distribution"
 
     # type: string
-    answers["(b)"] = ""
+    answers["(b)"] = "cluster1"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "the cluster1 almost made by water, so the entropy will be low"
 
     return answers
 

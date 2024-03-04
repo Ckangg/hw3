@@ -314,22 +314,22 @@ def question9():
     answers = {}
 
     # type: list
-    answers["(a)"] = []
+    answers["(a)"] = ['hierarchical','overlapping','complete']
 
     # type: list
-    answers["(b)"] = []
+    answers["(b)"] = ['partitional','exclusive','complete']
 
     # type: list
-    answers["(c)"] = []
+    answers["(c)"] = ['partitional','exclusive','incomplete']
 
     # type: list
-    answers["(d)"] = []
+    answers["(d)"] = ['hierarchical','overlapping','incomplete']
 
     # type: list
-    answers["(e)"] = []
+    answers["(e)"] = ['partitional','exclusive','complete']
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "one student has only one letter, and every one will get the grade."
 
     return answers
 
@@ -341,25 +341,25 @@ def question10():
     answers = {}
 
     # type: string
-    answers["(a) Figure (a)"] = ""
+    answers["(a) Figure (a)"] = "Yes"
 
     # type: string
-    answers["(a) Figure (b)"] = ""
+    answers["(a) Figure (b)"] = "Yes"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "for a, we can make a small eps, so there will be a boundary between the light side and the dark side, so it will distinguish the different part. For B, we can use a large min_samples, so it will distinguish the dark side, we get what we want."
 
     # type: string
-    answers["(b) Figure (a)"] = ""
+    answers["(b) Figure (a)"] = "No"
 
     # type: string
-    answers["(b) Figure (b)"] = ""
+    answers["(b) Figure (b)"] = "No"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "k-means is not a good way to cluster irregular shape datasets. it also assumes that clusters are spherical and similar size, it is not useful in this case."
 
     # type: string
-    answers["(c)"] = ""
+    answers["(c)"] = "spectral clustering"
 
     return answers
 

@@ -128,16 +128,16 @@ def question4():
     answers["(a) explain"] = "because A and B only have 100points, smaller than C, in order to find the min sse, the centroid will going to C, but the centroids are in the B firstly, so B will get a centroid"
 
     # type: int
-    answers["(b) Circle (a)"] = 0
+    answers["(b) Circle (a)"] = 1
 
     # type: int
-    answers["(b) Circle (b)"] = 0
+    answers["(b) Circle (b)"] = 1
 
     # type: int
-    answers["(b) Circle (c)"] = 0
+    answers["(b) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Because there is a centroid in the A at first, so it will has a centroid finally, because the c have larger datapoints, so there will be a centroid move to C, another will still in B"
 
     # type: int
     answers["(c) Circle (a)"] = 0
@@ -146,10 +146,10 @@ def question4():
     answers["(c) Circle (b)"] = 0
 
     # type: int
-    answers["(c) Circle (c)"] = 0
+    answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "the first centroid will move to the midle of the two circle, because they have the same number of points, because C have a large number of points, so the two centroids will stay in C and separate it into two part."
 
     return answers
 
@@ -161,16 +161,16 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set()
+    answers["(a)"] = set(AB)
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "single linkage is to find the minimum of two points in different group. So I choose A and B"
 
     # type: set
-    answers["(b)"] = set()
+    answers["(b)"] = set(AC)
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "this method is to find the maximum distance of two points in different group, so I choose A and C"
 
     return answers
 

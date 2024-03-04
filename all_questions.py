@@ -98,13 +98,13 @@ def question3():
     answers = {}
 
     # type: a string that evaluates to a float
-    answers["(a) SSE"] = 4*R**2
+    answers["(a) SSE"] = "4*R**2"
 
     # type: a string that evaluates to a float
-    answers["(b) SSE"] = 4*a**2+4*b**2+4*R**2
+    answers["(b) SSE"] ="4*a**2+4*b**2+4*R**2"
 
     # type: a string that evaluates to a float
-    answers["(c) SSE"] = 5*R**2
+    answers["(c) SSE"] = "5*R**2"
 
     return answers
 
@@ -161,13 +161,13 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set({'AB'})
+    answers["(a)"] = set({"Group A", "Group B"})
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "single linkage is to find the minimum of two points in different group. So I choose A and B"
 
     # type: set
-    answers["(b)"] = set({'AC'})
+    answers["(b)"] = set({"Group A", "Group C"})
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = "this method is to find the maximum distance of two points in different group, so I choose A and C"
